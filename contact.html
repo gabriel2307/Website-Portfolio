@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <!--
+    <link rel="stylesheet" href="assets/background.css">
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/script.js" defer></script>
+    <title>My Portfolio: Contact</title>
+</head>
+<body>
+<body>
+
+    <style type="text/css">
+
+    </style>
+
+    <nav class="navbar">
+      <div class="brand-title">My Portfolio</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav> 
+    
+    <section>
+        <div class="form-container border border-radius-25 wow animate__bounceIn" data-wow-duration="1500ms" data-wow-delay="500ms">
+
+            <h2 class="text-orange text-center">Contact Form</h2>
+
+            <form id="frmContact">
+                <div>
+                    <label for="txtName">Name:</label>
+                    <input class="form-control" type="text" id="txtName" />
+                    <span class="error" id="errorName"></span>
+                </div>
+                <div>
+                    <label for="txtEmail">Email:</label>
+                    <input class="form-control" type="text" id="txtEmail" />
+                    <span class="error" id="errorEmail"></span>
+                </div>
+                <div>
+                    <label for="txtSubject">Subject:</label>
+                    <input class="form-control" type="text" id="txtSubject" />
+                    <span class="error" id="errorSubject"></span>
+                </div>
+                <div>
+                    <label for="txtMessage">Message:</label>
+                    <textarea class="form-control" id="txtMessage" wrap="hard"></textarea>
+                    <span class="error" id="errorMessage"></span>
+                </div>
+                <div>
+                    <button class="btn btn-color-1" type="submit">Send</button>
+                </div>
+                <div>
+                    <span class="error" id="statusMessage"></span>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script>
+      new WOW().init();
+    </script>
+
+    <footer>
+        <p>©2023 - Gabriel Ulaj</p>
+    </footer>
+
+</body>
+</html>

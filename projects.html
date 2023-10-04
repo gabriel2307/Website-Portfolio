@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <!--
+    <link rel="stylesheet" href="assets/background.css">
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/script.js" defer></script>
+    <title>My Portfolio: Project</title>
+</head>
+<body>
+<body>
+
+    <nav class="navbar">
+      <div class="brand-title">My Portfolio</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a class="active" href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav> 
+    
+
+  <!---------- Projects ----------->
+  <section>
+
+    <h2 class="text-orange text-center">My Projects</h2> <!--http://127.0.0.1:5500/index.html#falcon%209, https://developer.mozilla.org/en-US/docs/Web/CSS-->
+
+    <div class="projects-row my-1">
+
+      <div class="project-item wow animate__animated animate__fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+        <div class="p-2 border shadow border-radius-25" onclick="window.location.href = 'https://replit.com/@gabriel23071/SQL-Leisure-Centre-Database'">
+          <div class="project-info">
+            <h1 class="text-orange">Project 1</h1>
+            <h2 class="text-muted">SQL Leisure Centre Database</h2>
+            <p>As part of a significant digital transformation initiative, I undertook a project to develop a robust and efficient SQL 
+              database system for a local leisure centre. The primary objective was to facilitate the transition from their traditional 
+              paper-based record-keeping system to a streamlined and centralized database solution. The primary focus of this database 
+              was to aid in the management of the centre's swimming lessons.</p>
+          </div>
+          <div class="project-img">
+            <img src="assets/project1.jpg" alt="project 1">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item wow animate__animated animate__fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+        <div class="p-2 border shadow border-radius-25" onclick="window.location.href = 'https://github.com/gabriel2307/SpaceX-Clone'">
+          <div class="project-info">
+            <h1 class="text-orange">Project 2</h1>
+            <h2 class="text-muted">SpaceX Clone</h2>
+            <p>As a demonstration of my front-end web development skills, I embarked on a project to recreate the homepage of the SpaceX website 
+              using HTML and CSS. The primary objective was to test and showcase my proficiency in CSS styling techniques while closely emulating 
+              the design and layout of SpaceX's official website.</p>
+          </div>
+          <div class="project-img">
+            <img src="assets/SpaceX Clone.png" alt="project 2">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="projects-row my-1">
+      
+      <div class="project-item wow animate__animated animate__fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+        <div class="p-2 border shadow border-radius-25" onclick="window.location.href = 'https://replit.com/@gabriel23071/FilmFlix-Python-App-with-Database'">
+          <div class="project-info">
+            <h1 class="text-orange">Project 3</h1>
+            <h2 class="text-muted">FilmFlix Python App with Database</h2>
+            <p>I undertook a dynamic project to develop a command-line Python application for FilmFlix, a startup with a burgeoning film database. 
+              The objective was to create a robust and user-friendly tool for efficiently managing their film database. The application's foundation 
+              rested on the use of Python as the primary programming language, closely integrated with an SQLite3 SQL database.</p>
+          </div>
+          <div class="project-img">
+            <img src="assets/FilmFlix.png" alt="project 1">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item wow animate__animated animate__fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+        <div class="p-2 border shadow border-radius-25" onclick="window.location.href = 'https://github.com/gabriel2307/Tic-Tac-Toe-Game'">
+          <div class="project-info">
+            <h1 class="text-orange">Project 4</h1>
+            <h2 class="text-muted">Tic Tac Toe Game</h2>
+            <p>I embarked on this project to demonstrate my JavaScript skills by developing a classic 2-player Tic Tac Toe game. 
+              The primary goal was to create an interactive and enjoyable gaming experience while showcasing my proficiency in JavaScript for 
+              the game's logic, with some CSS for styling.</p>
+          </div>
+          <div class="project-img">
+            <img src="assets/tic tac toe.png" alt="project 2">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <footer>
+      <p>©2023 - Gabriel Ulaj</p>
+  </footer>
+
+</body>
+</html>

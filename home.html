@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <!--
+    <link rel="stylesheet" href="assets/background.css">
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/script.js" defer></script>
+    <title>My Portfolio: Home</title>
+</head>
+<body>
+
+    <!----------- Navbar ----------->
+    <nav class="navbar">
+      <div class="brand-title">My Portfolio</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section class="main-section">
+
+        <div class="card text-center animate__animated animate__fadeInLeft">
+            <img class="profile-img" src="assets/profile.jpg">
+        </div>
+
+        <div class="card border shadow border-radius-25 text-center wow animate__animated animate__fadeInRight">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Gabriel Ulaj</h1>
+            <p class="section__text__p2 text-muted">Frontend Developer</p>
+
+            <button class="btn btn-color-2"onclick="window.open('https://dochub.com/gabriel-ulaj/jo3xELpR3A5e2JvVJBa7nr/cv-professional-pdf')">View CV</button>
+            <button class="btn btn-color-1" onclick="location.href='contact.html'">Contact Info</button>
+
+            <div class="icons-container">
+                <i class="fab fa-linkedin-in" onclick="location.href='https://www.linkedin.com/in/gabriel-ulaj-04123222a/'"></i>
+                <i class="fab fa-github" onclick="location.href='https://github.com/gabriel2307'"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="intro-section wow animate__bounceIn" data-wow-duration="1000ms" data-wow-delay="500ms">
+      <p>
+          Hello, I'm Gabriel Ulaj, an enthusiastic and aspiring software developer with a passion for crafting exceptional digital experiences. 
+      </p>
+      <p>
+          With proficiency in a versatile set of technologies including <strong class="text-orange"> HTML, CSS, JavaScript, Python, and SQL,</strong> I am committed to creating web and software solutions that seamlessly merge functionality with user-centric design.
+      </p>
+    </section>
+
+    <section class="experiences">
+        <div class="text-center">
+            <h2 class="experience-title">
+              <small class="text-muted">Explore my</small><br>
+              Experience
+            </h2>
+        </div>
+
+        <div class="experiences-grid">
+            <div class="card shadow wow animate__animated animate__fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                <h4 class="text-center">Frontend Development</h4>
+                <div class="experience-grid">
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>HTML</b><br>
+                          <span>Experienced</span>
+                        </div>
+                    </div>
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <b>CSS</b><br>
+                        <span>Experienced</span>
+                    </div>
+                </div>
+                <div class="experience-grid">
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>JavaScript</b><br>
+                          <span>Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>Typescript</b><br>
+                          <span>Basic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow wow animate__animated animate__fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                <h4 class="text-center">Backend Development</h4>
+                <div class="experience-grid">
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>PHP</b><br>
+                          <span>Basic</span>
+                        </div>
+                    </div>
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>PYTHON</b><br>
+                          <span>Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-grid">
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>SQL</b><br>
+                          <span>Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="grid-section-icon my-1">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                          <b>GIT</b><br>
+                          <span>Basic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <br><br><br>
+
+    <script>
+      new WOW().init();
+    </script>
+
+    <footer>
+        <p>©2023 - Gabriel Ulaj</p>
+    </footer>
+
+</body>
+</html>
